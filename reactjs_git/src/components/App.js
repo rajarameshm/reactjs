@@ -20,7 +20,8 @@ class App extends Component {
     addNewFriend = (friendName) => {
         console.log(friendName);
         //this.setState({friendsData1: this.state.friendsData1.push(friendName)});
-        this.setState({friendsData1: this.state.friendsData1, friendName});
+        //this.setState({friendsData1: this.state.friendsData1, friendName});
+        this.setState({friendsData1: [...this.state.friendsData1, friendName]});
     }
 
 }

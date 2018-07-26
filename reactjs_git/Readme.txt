@@ -1,11 +1,13 @@
 Training: ReactJS
 Name: Satyanarayana
 email: satyamtd@gmail.com
+Day-1: 25-JUL-2018
+##################
 
 Project Dependencies:
-Java Project: Maven
-Dot.Net Project: NuGet
-JS Project: NPM
+   Java Project: Maven
+   Dot.Net Project: NuGet
+   JS Project: NPM
 
 NPM packages can be installed: local or global
 Various commands of NPM are: install, uninistall, update, init, list, run etc
@@ -29,12 +31,19 @@ NPM as Task Runner
 two types of task: 1. built-in task 2. custom task
 
 Java Script ES 6 features:
+--------------------------
+
 block scoped variable: "let"
 constant variable: const
 arrow functions: =>
 Object oriented features: Classes
 Modules: each file is a module
 export and import
+
+JSX is used for rendering (HTML style)
+
+Dumb Component: Child Component
+Stateful Component: App Component
 
 A set of classes, modules etc., can be grouped into Module
 React class names should be pascal (first letter is capital)
@@ -64,6 +73,57 @@ ex:
 let MyTag = () => {return <h1>this is functional Component</h1>}
 
 Spread Operator (Push not supported by react in earlier releases)
+
+
+Day-2: 26-JUL-2018
+##################
+
+>create-react-app shoppingproject
+creates a reactjs project environment with zero configuration
+>cd shoppingproject
+
+>npm i bootstrap
+
+react-router: 
+BrowerRouter: Uses HTML5 history API
+Route: Render UI when route path matches
+Link:
+
+>npm i react-router-dom
+>npm i -S redux
+will install redux in the shoppingcart project
+>npm i react-redux
+will install react components for redux
+
+
+
+
+
+Redux - State Manager
+---------------------
+
+A state container for Java Script applications
+It manages global data
+State managed in subscription model
+
+Store: container (plain JS Object)
+Reducer: A JS function with two arguments: 1. current state 2. current action (CRUD operations)
+and return updated state.
+Action: A JS Object
+Dispatch: A JS function, sends action to state
+Subscribe: listens for a change in state
+
+
+> npm init -y
+will create package.json
+> npm install redux
+will install the redux 
+> node .\reduxdemo1.js
+execute the Java Script
+> npm i -g nodemon
+install nodemonitoring process
+> nodemon .\reduxdemo1.js
+willl monitor the file changes
 
 
 

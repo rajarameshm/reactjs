@@ -1,19 +1,34 @@
 {
-  "posts": [
+  "wsproducts": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "name": "Sony TV",
+      "price": "100",
+      "description": "Bravia"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "name": "Mac Book",
+      "price": "200",
+      "description": "Mac Book Pro"
+    },
+    {
+      "id": 3,
+      "name": "Samsung",
+      "price": "300",
+      "description": "UHD TV"
+    },
+    {
+      "id": 4,
+      "name": "LG",
+      "price": "400",
+      "description": "QHDTV"
+    },
+    {
+      "id": 5,
+      "name": "Thoshiba",
+      "price": "500",
+      "description": "Thoshiba TV"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

@@ -123,7 +123,51 @@ execute the Java Script
 > npm i -g nodemon
 install nodemonitoring process
 > nodemon .\reduxdemo1.js
-willl monitor the file changes
+will monitor the file changes
+
+
+
+Day-3: 27-JUL-2018
+##################
+
+
+crateStore only allows one Reducer, two work with we need to use combineReducers() from library: "redux"
+
+React Life Cycle methods: mounting/unmounting
+componentWillMount() --before rendering
+render()             --while rendering
+componentDidMount()  --after rendering
+componentWillUnMount()
+
+
+> npm i -g json-server
+install the json-server will use the lowDB (json database similar to mongodb)
+> json-server -v
+to check the version
+> json-server -p 4000 .\myrestproject.json
+
+> npm i -S axios
+
+
+> npm run build
+to build and generate the project
+
+
+Jest:
+-----
+A testing library that can be used to test react components
+
+> npm test
+
+Enzyme: 
+------
+Another library commonly used with Jest
+Mock DOM objects can be created to test
+> npm i -D enzyme enzyme-adapter-react-16 jest-enzyme
+
+
+
+
 
 
 
